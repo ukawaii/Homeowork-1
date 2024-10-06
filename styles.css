@@ -43,3 +43,18 @@
     background-color: royalblue;
     color: white;
 }
+.post-maker{
+    display: flex;
+    align-items: flex-start;
+}
+.wrap-label{
+    white-space: pre-wrap;
+}
+input[type="file"] {
+    display:none
+}
+.file-label{
+    color: white;
+    background-color: darkgray;
+    display: flex;
+}
