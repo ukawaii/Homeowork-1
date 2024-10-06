@@ -21,6 +21,10 @@
     max-height: 40px;
     max-width: 40px;
 }
+.small-img{
+    max-height: 1em;
+    max-width: 1em;
+}
 .main-login{
     margin: auto;
     width: 30%;
@@ -57,4 +61,29 @@ input[type="file"] {
     color: white;
     background-color: darkgray;
     display: flex;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+}
+.post{
+    width: 30%;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 25px;
+    min-height: 5em;
+    margin-bottom: 1em;
+}
+.post li{
+    display: inline-block;
+    margin: 5px;
+}
+.post ul{
+    display : flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.post-text{
+    text-align: left;
+    margin: 1em;
 }
