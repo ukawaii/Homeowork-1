@@ -3,12 +3,14 @@
     align-items: stretch;
     justify-content: space-between;
     width: 100%;
-    margin: 0;
+    margin: 1px;
     padding: 0;
+    background-color: gray;
+    border-radius: 25px;
 }
 .nav li{
     display: inline-block;
-    padding: 5px;
+    margin: 5px;
 
 }
 .nav a:hover{
@@ -16,6 +18,28 @@
 }
 
 .img{
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 40px;
+    max-width: 40px;
+}
+.main-login{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    line-height: 160%;
+}
+.nav a{
+    text-decoration: none
+}
+
+.no-underline{
+    text-decoration: none
+}
+.textinput{
+    margin-bottom: 4px;
+}
+.button{
+    background-color: royalblue;
+    color: white;
 }
